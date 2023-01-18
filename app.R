@@ -4,7 +4,7 @@ library(lubridate)
 
 ##### Dados
 
-dados = read.csv("data/admin_Calldetials_CallQueueStatistics.csv",
+dados = read.csv("admin_Calldetials_CallQueueStatistics.csv",
                  header = F)
 
 ### Manipulação dos dados
