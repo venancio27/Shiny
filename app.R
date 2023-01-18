@@ -103,7 +103,7 @@ server <- function(input, output) {
           labs(x = "Hora",y = "Quantidade de Ligações",fill = "Ligações",
                title = input$fila)+
           theme(panel.grid.major = element_line(colour = "gray99",
-                                                linewidth = 1,
+                                                size = 1,
                                                 linetype = "blank"),
                 panel.grid.minor = element_line(size = 1),
                 legend.text = element_text(size = 12,colour = "gray0"),
