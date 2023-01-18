@@ -33,7 +33,7 @@ df_calls_hour$Conectado = ifelse(df_calls_hour$Conectado == "no","Não atendidas
 
 ui <- fluidPage(
   
-    titlePanel("Call Center - Ciro"),
+    titlePanel("Call Center - Cero"),
 
     sidebarLayout(
       sidebarPanel(
